@@ -139,7 +139,7 @@ class TestTrailblazerLongitudinalIntegrity:
                          networkLocation=NetworkLocation.fwdCamera)
     assert is_trailblazer_camera_longitudinal(CP)
 
-    CP.carFingerprint = CAR.CHEVROLET_TRAILBLAZER_CC
+    CP.carFingerprint = CAR.CHEVROLET_EQUINOX
     assert not is_trailblazer_camera_longitudinal(CP)
 
     CP.carFingerprint = CAR.CHEVROLET_TRAILBLAZER
